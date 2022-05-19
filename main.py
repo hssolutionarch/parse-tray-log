@@ -1,16 +1,10 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+import util
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    # ROLE/POLICY ALREADY CREATED & POLICY HAS BEEN ATTACHED TO THE ROLE
+    # util.create_iam_role()
+    # util.create_policy()
+    # util.attach_policy()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    util.extract_cluster_info()
